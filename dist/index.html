@@ -22,30 +22,73 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">BuildYour<span class="text-danger"><i>WebPage</i></span></a>
+                <a class="navbar-brand" href="#page-top" style="font-size: 1.8rem;">
+                    AI<span class="text-danger"><i>Samachar</i></span>
+                </a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto my-2 my-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                    </ul>
+                        <!-- Home -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+
+                        <!-- About Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            About
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="#our-team">Our Team</a></li>
+                            <li><a class="dropdown-item" href="#our-mission">Our Mission</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Services Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="#content-gen">Content Generation</a></li>
+                            <li><a class="dropdown-item" href="#data-analysis">Data Analysis</a></li>
+                            <li><a class="dropdown-item" href="#automation">Automation</a></li>
+                            </ul>
+                        </li>
+
+                        <!-- Portfolio -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+
+                        <!-- Contact -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
         <header class="masthead">
             <div class="container px-4 px-lg-5 h-100">
-                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center">
-                    <div class="col-lg-8 align-self-end">
-                        <h1 class="text-white font-weight-bold">Build websites with us!</h1>
-                        <hr class="divider" />
-                    </div>
-                    <div class="col-lg-8 align-self-baseline">
-                        <p class="text-white-75 mb-5 fs-4">Get started with us and build stunning websites using Bootstrap! Choose a theme, make it yours, and go live in no time — it’s that simple!</p>
-                        <a class="btn btn-secondary btn-xl" href="#about">Check Out More</a>
-                    </div>
+                <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-between">
+                
+                <!-- Text Section (Left Column) -->
+                <div class="col-lg-6 align-self-center text-white">
+                    <h2 class="font-weight-bold">Unlock the power of AI<br> for your Workflow.</h2>
+                    <p class="text-white-50 mb-4 fs-5">
+                    Our AI helps you generate content,<br> analyze data, and automate tasks in seconds.
+                    </p>
+                    <a class="btn btn-secondary btn-xl me-3" href="#contact">Try Us</a>
+                    <a class="btn btn-secondary btn-xl" href="#portfolio">Our Projects</a>
+                </div>
+
+                <!-- Image Section (Right Column) -->
+                <div class="col-lg-6 text-left">
+                    <img src="./assets/img/image.png" alt="AI Illustration" class="img-fluid rounded shadow" />
+                </div>
+
                 </div>
             </div>
         </header>
